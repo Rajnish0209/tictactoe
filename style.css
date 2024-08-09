@@ -1,0 +1,114 @@
+/* Reset some default browser styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #e2e2e2, #ffffff);
+  color: #333;
+}
+
+.container {
+  text-align: center;
+}
+
+.container1 {
+  display: inline-block;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.innerContainer1,
+.innerContainer2,
+.innerContainer3 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 70px;
+  height: 70px;
+  font-size: 32px;
+  border: none;
+  border-radius: 8px;
+  background: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background: #ececec;
+}
+
+.btn:active {
+  background: #dcdcdc;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8,
+.btn9 {
+  margin: 5px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container2 {
+  margin-top: 20px;
+}
+
+.container2 .btn {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.btn10,
+.btn12 {
+  color: #ff4d4d; /* Red color for X */
+  background: #fff;
+  border: 2px solid #ff4d4d;
+}
+
+.btn11.reset {
+  color: #4d79ff; /* Blue color for Reset */
+  background: #fff;
+  border: 2px solid #4d79ff;
+  font-weight: bold;
+}
+
+.btn10:hover,
+.btn12:hover {
+  background: #fce5e5;
+}
+
+.btn10:active,
+.btn12:active {
+  background: #f5b8b8;
+}
+
+.btn11.reset:hover {
+  background: #d0e0ff;
+}
+
+.btn11.reset:active {
+  background: #b0c4ff;
+}
